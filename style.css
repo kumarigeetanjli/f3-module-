@@ -1,0 +1,94 @@
+.container {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2{
+    margin: 12px auto;
+}
+
+.image {
+    width: 47%;
+}
+
+
+#mn-box {
+    display: flex;
+    gap: 21px;
+    background-color: rgb(5, 5, 5);
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 16px auto;
+
+}
+
+#inp-srch{
+
+    margin: 5px;
+    size: 52px;
+ }
+
+
+#crnt-box {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+    padding: 18px;
+    gap: 26px;
+}
+
+
+
+input{
+    width: 148px;
+    height: 29px;
+    border-radius: 7.5px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    #mn-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #mn-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        padding: 15px;
+    }
+}
+
+button{
+    width: 90px;
+    height: 28px;
+    border-radius: 7px;
+    font-weight: 698;
+    font-size: large;
+}
